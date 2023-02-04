@@ -1,0 +1,120 @@
+:root {
+	/*HEX color to variables*/
+	--colorNavyBlue: #2E2F42;
+	--colorSlate: #434455;
+	--colorIris: #4D5AE5;
+	--colorOcean: #404BBF;
+	--colorGreen: #31D0AA;
+	--colorLightSlate: #8E8F99;
+	--colorCornflower: #E7E9FC;
+	--colorCloud: #F4F4FD;
+	--colorNavyBlueModal: #2E2F4265; /* #2E2F42 40% */
+	--colorGrey: #2E2F42b2; /* #2E2F42 70% */
+
+	/*color definition*/
+	--headersColor: var(--colorNavyBlue);
+	--textColor: var(--colorSlate);
+	--backgroundColorHeader: var(--colorCornflower);
+	--backgroundColorDark: var(--colorNavyBlue);
+	--backgroundColorLight: var(--colorCloud);
+	--backgroundColorWhite: #fff;
+	--buttonColor: var(--colorIris);
+	--logoColor: var(--colorIris);
+	--heroTextColor: #fff;
+	--footerLinkColor: var(--colorCloud);
+	--footerTextColor: var(--colorCornflower);
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: var(--colorSlate);
+	background-color: #E5E5E5;
+	/*margin: 0;*/
+}
+
+.header ul,
+.features ul,
+.portfolio ul,
+.our-team ul {
+	list-style: none;
+	padding: 0;	
+}
+
+.header ul {
+	display: inline-block;
+}
+
+.header li,
+.features li,
+.portfolio li,
+.our-team li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.header {
+	background-color: var(--backgroundColorHeader);
+	padding: 0;
+	/*margin: 0;*/
+}
+.header nav,
+.header address {
+	display: inline-block;
+}
+
+.header .link {
+	text-decoration: none;
+	color: var(--headersColor);
+}
+
+.header address .link {
+	color: var(--textColor);
+}
+
+.link:hover,
+.link:focus {
+
+}
+
+.logo span {
+	color: var(--logoColor);
+}
+
+.main {
+	background-color: var(--backgroundColorWhite);
+	padding: 0;
+	/*margin: 0;*/
+}
+
+.hero-image {
+	color: var(--heroTextColor);
+	background-color: var(--backgroundColorDark);
+}
+.hero-image .button {
+	color: var(--heroTextColor);
+	background-color: var(--buttonColor);
+}
+
+.features h3 {
+	color: var(--headersColor);
+}
+
+.portfolio h2,
+.our-team h2 {
+	color: var(--headersColor);
+}
+
+.our-team {
+	background-color: var(--backgroundColorLight);
+}
+
+.footer {
+	color: var(--footerTextColor);
+	background-color: var(--backgroundColorDark);
+	padding: 0;
+	/*margin: 0;*/
+}
+.footer .link {
+	text-decoration: none;
+	color: var(--footerLinkColor);
+}
