@@ -19,7 +19,8 @@
 	--backgroundColorLight: var(--colorCloud);
 	--backgroundColorWhite: #fff;
 	--buttonColor: var(--colorIris);
-	--logoColor: var(--colorIris);
+	/*--logoColor: var(--colorIris);*/
+	--logoColor: #4d5ae5;
 	--pressedStateColor: var(--colorOcean);
 	--heroTextColor: #fff;
 	--footerLinkColor: var(--colorCloud);
@@ -79,9 +80,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 1.33; /* identical to box height, or 133% */
+	line-height: 1.17; /* identical to box height, or 133% */
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+
 }
 
 .logo span {
@@ -130,6 +132,7 @@ body {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	letter-spacing: 0.04em;	
+	text-transform: capitalize
 }
 
 .features h3,
