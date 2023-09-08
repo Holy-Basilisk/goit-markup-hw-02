@@ -81,7 +81,7 @@ body {
 
 .logo.link {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.17; /* identical to box height, or 133% */
 	letter-spacing: 0.03em;
@@ -91,6 +91,10 @@ body {
 
 .logo span {
 	color: var(--headersColor);
+}
+
+.address {
+	font-style: normal;
 }
 
 .main {
