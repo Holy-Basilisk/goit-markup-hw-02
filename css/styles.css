@@ -12,7 +12,8 @@
 	--colorGrey: #2E2F42b2; /* #2E2F42 70% */
 
 	/*color definition*/
-	--headersColor: var(--colorNavyBlue);
+	/*--headersColor: var(--colorNavyBlue);*/
+	--headersColor: #2E2F42;
 	--textColor: var(--colorSlate);
 	--backgroundColorHeader: var(--colorCornflower);
 	--backgroundColorDark: var(--colorNavyBlue);
@@ -85,11 +86,11 @@ body {
 	line-height: 1.17; /* identical to box height, or 133% */
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-
+	color: var(--logoColor);
 }
 
 .logo span {
-	color: var(--logoColor);
+	color: var(--headersColor);
 }
 
 .main {
