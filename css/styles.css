@@ -168,11 +168,16 @@ body {
 	padding: 0px;
 }*/
 
+.portfolio {
+	background-color: var(--backgroundColorLight);
+}
+
 .portfolio h2,
 .our-team h2 {
 	color: var(--headersColor);
 	font-size: 36px;
 	line-height: 1.11;
+	text-transform: capitalize;
 	text-align: center;
 	letter-spacing: 0.02em;
 }
