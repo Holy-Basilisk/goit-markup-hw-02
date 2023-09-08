@@ -172,8 +172,8 @@ body {
 	background-color: var(--backgroundColorLight);
 }
 
-.portfolio h2,
-.our-team h2 {
+.portfolio h1,
+.our-team h1 {
 	color: var(--headersColor);
 	font-size: 36px;
 	line-height: 1.11;
