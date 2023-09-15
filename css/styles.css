@@ -160,22 +160,10 @@ body {
 	letter-spacing: 0.02em;
 }
 
-/* отложим до позиционирования flex :) 
-.features li {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding: 0px;
-}*/
-
 .portfolio {
 	background-color: var(--backgroundColorLight);
 }
 
-.portfolio li,
-.our-team li {
-	background-color: var(--backgroundColorWhite);
-}
 
 .portfolio h2,
 .our-team h2 {
@@ -188,13 +176,13 @@ body {
 	font-weight: 500
 }
 
-.portfolio .hidden-header {
+/*.portfolio .hidden-header {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--headersColor);
-}
+}*/
 
 .our-team {
 	background-color: var(--backgroundColorLight);
@@ -202,10 +190,15 @@ body {
 	/*display: flex;*/
 	/*flex-direction: column;*/
 	justify-content: center;
-	align-items: center;
-	padding: 0px;
+/*	align-items: center;
+	padding: 0px;*/
 	/*тут флекс работает как надо :) но мб по другому структуру нужно будет сделать*/
 }
+
+.our-team li {
+	background-color: var(--backgroundColorWhite);
+}
+
 .team-card {
 	width: 264px;
 	height: 380px;
