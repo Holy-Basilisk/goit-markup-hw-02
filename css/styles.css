@@ -161,7 +161,7 @@ body {
 }
 
 .portfolio {
-	background-color: var(--backgroundColorWhite);
+	background-color: var(--backgroundColorLight);
 }
 
 
@@ -196,7 +196,7 @@ body {
 }
 
 .our-team .team-card {
-	background-color: var(--backgroundColorWhite);
+	background-color: #fff;
 	width: 264px;
 	height: 380px;
 	
