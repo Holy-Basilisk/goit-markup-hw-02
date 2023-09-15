@@ -161,7 +161,7 @@ body {
 }
 
 .portfolio {
-	background-color: var(--backgroundColorLight);
+	background-color: var(--backgroundColorWhite);
 }
 
 
@@ -195,7 +195,7 @@ body {
 	/*тут флекс работает как надо :) но мб по другому структуру нужно будет сделать*/
 }
 
-.team-card {
+.our-team .team-card {
 	background-color: var(--backgroundColorWhite);
 	width: 264px;
 	height: 380px;
