@@ -21,7 +21,7 @@
 	--backgroundColorWhite: #fff;
 	--buttonColor: var(--colorIris);
 	/*--logoColor: var(--colorIris);*/
-	--logoColor: #4d5ae5;
+	--logoColor: #4D5AE5;
 	--pressedStateColor: var(--colorOcean);
 	--heroTextColor: #fff;
 	--footerLinkColor: var(--colorCloud);
@@ -79,6 +79,16 @@ body {
 	font-weight: 400;
 }
 
+.footer {
+	color: var(--footerTextColor);
+	background-color: var(--backgroundColorDark);
+	padding: 0;
+}
+.footer .logo {
+	text-decoration: none;
+	color: var(--footerLinkColor);
+}
+
 .logo.link {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -89,8 +99,11 @@ body {
 	color: var(--logoColor);
 }
 
-.logo span {
+.header .logo span {
 	color: var(--headersColor);
+}
+.footer .logo span {
+	color: var(--footerLinkColor);
 }
 
 .address {
@@ -219,18 +232,8 @@ body {
 	color: var(--textColor);
 }
 
-.footer {
-	color: var(--footerTextColor);
-	background-color: var(--backgroundColorDark);
-	padding: 0;
-}
-.footer .logo {
-	text-decoration: none;
-	color: var(--footerLinkColor);
-}
-
-.header li .link:hover,
-.header li .link:focus {
+.header .link:hover,
+.header .link:focus {
 	color: var(--pressedStateColor);
 }
 
