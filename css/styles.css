@@ -25,7 +25,7 @@
 	--pressedStateColor: var(--colorOcean);
 	--heroTextColor: #fff;
 	--footerLinkColor: var(--colorCloud);
-	--footerTextColor: var(--colorCornflower);
+	--footerTextColor: var(--colorCloud);
 }
 
 body {
